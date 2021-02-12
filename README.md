@@ -2,7 +2,7 @@
 
 My purpose is to focus on the functionality and performance of the systems, specifically the aircraft engine system. I analyze how the system will continue functioning, namely, to predict if the engine will fail within a certain time frame (for example days or cycles.) With forecasting, engineers can schedule maintenance, optimize operating efficiency, and avoid unplanned downtime.
 
-The datasets are provided by NASA. Each dataset has a training set and testing set with a different number of engine units from run-to-failure. The training dataset has over 20,000 observations. The testing dataset has over 13,000 observations. The dataset consists of aircraft engine unit number, Cycles of each engine running, three operating settings, another 21 columns of sensors’ data such as temperature and pressure, which rise or fall over time with obvious signs of degradation.
+Each dataset has a training set and testing set with a different number of engine units from run-to-failure. The training dataset has over 20,000 observations. The testing dataset has over 13,000 observations. The dataset consists of aircraft engine unit number, Cycles of each engine running, three operating settings, another 21 columns of sensors’ data such as temperature and pressure, which rise or fall over time with obvious signs of degradation.
 
 ![11](https://user-images.githubusercontent.com/32876600/107393103-637be700-6ac8-11eb-8e38-35f16a560113.JPG)
 
@@ -32,3 +32,8 @@ SVM:
 Top features:
 
 ![top features](https://user-images.githubusercontent.com/32876600/107394252-a9857a80-6ac9-11eb-84db-bba9a78752d3.JPG)
+
+Reference:
+
+https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2A-of-3-train-and-evaluate-regression-models-2
+https://rdw.rowan.edu/cgi/viewcontent.cgi?article=3433&context=etd
